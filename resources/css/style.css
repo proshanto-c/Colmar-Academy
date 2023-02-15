@@ -8,18 +8,18 @@ div {
     border: 1px solid aqua;
 }
 
-header {
+header, footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 64px;
+    padding: 0 24px;
 }
 
 #logo {
     height: 32px;
     line-height: 32px;
     text-align: center;
-    margin-left: 24px;
     vertical-align:middle;
 }
 
@@ -27,10 +27,6 @@ header {
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
-}
-
-#navBar {
-    margin-right: 24px;
 }
 
 header img, p, li {
@@ -74,7 +70,7 @@ header li {
 #articles {
     display: flex;
     justify-content: left;
-    align-items: center;
+    align-items: top;
 }
 
 #mainArticle {
