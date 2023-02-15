@@ -73,17 +73,17 @@ header li {
     align-items: top;
 }
 
-#mainArticle {
+.mainArticle {
     padding: 32px 24px;
     max-width: 60%;
 }
 
-#mainArticle img {
+.mainArticle img {
     max-width: 100%;
     height: auto;
 }
 
-#subArticles {
+.subArticles {
     min-height: 100%;
     max-width: 40%;
     display: flex;
@@ -92,7 +92,7 @@ header li {
     align-items: center;
 }
 
-#subArticles button {
+.subArticles button {
     border: 1px solid rgb(212, 212, 212);
     padding: 16px;
     margin: 0;
@@ -103,17 +103,51 @@ header li {
     align-items: center;
 }
 
-#subArticles button:hover {
+.subArticles button:hover {
     background-color: rgb(212, 212, 212);
 }
 
-#subArticles button img {
+.subArticles button img {
     width: 35%;
     height: auto;
     padding-right: 16px;
 }
 
-#subArticles button div {
+.subArticles button div {
     width: 65%;
     text-align: left;
+}
+
+#learn {
+    padding: 32px;
+    text-align: center;
+}
+
+#panelBoard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 32px 32px 32px;
+}
+
+.panel {
+    width: 30%;
+    margin-top: 32px;
+    max-height: 100%;
+    background-color: white;
+    text-align: left;
+}
+
+.panel img {
+    width: 100%;
+    height: auto;
+}
+
+.panel div {
+    margin: 16px;
+    line-height: 1.5;
+}
+
+.panel:hover {
+    background-color: rgb(212, 212, 212);
 }
