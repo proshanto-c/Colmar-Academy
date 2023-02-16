@@ -1,11 +1,11 @@
 html {
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Lato', sans-serif;
     color: rgb(71, 71, 71);
 }
 
-div {
-    border: 1px solid aqua;
+body {
+    margin: 0;
 }
 
 header, footer {
@@ -21,6 +21,9 @@ header, footer {
     line-height: 32px;
     text-align: center;
     vertical-align:middle;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
 #logo span {
@@ -63,11 +66,16 @@ header li {
 
 #text button {
     width: 100%;
+    border: 0;
     background-color: rgb(71, 71, 71);
     color: white;
 }
 
-#articles {
+#text button:hover {
+    background-color: black;
+}
+
+.articlesBox {
     display: flex;
     justify-content: left;
     align-items: top;
@@ -78,7 +86,7 @@ header li {
     max-width: 60%;
 }
 
-.mainArticle img {
+.mainArticle img, video {
     max-width: 100%;
     height: auto;
 }
@@ -93,10 +101,12 @@ header li {
 }
 
 .subArticles button {
+    font-size: 24px;
+    color:rgb(71, 71, 71);
     border: 1px solid rgb(212, 212, 212);
     padding: 16px;
     margin: 0;
-    width: 100%;
+    min-width: 100%;
     background-color: white;
     display: flex;
     justify-content: left;
@@ -150,4 +160,9 @@ header li {
 
 .panel:hover {
     background-color: rgb(212, 212, 212);
+}
+
+#exhibitions {
+    text-align: center;
+    border-bottom: 1px solid rgb(212, 212, 212);
 }
