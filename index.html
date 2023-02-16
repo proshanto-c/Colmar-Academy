@@ -12,6 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--<link rel="stylesheet" href="./resources/css/reset.css">-->
     <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet" href="./resources/css/mobilestyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -47,7 +48,7 @@
             </div>
             <div id="articles" class="whiteBack">
                 <div class="articlesBox">
-                    <div class="mainArticle">
+                    <div id="desktopMainArticle" class="mainArticle">
                         <img src="./resources/assets/images/information-main.jpg">
                         <h1>It doesn't hurt to keep practicing</h1>
                         <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
@@ -83,7 +84,7 @@
             </div>
             <div id="learn" class="greyBack">
                 <h1>Start learning</h1>
-                <div id="panelBoard">
+                <div id="desktopPanelBoard">
                     <div class="panel">
                         <img src="./resources/assets/images/course-software.jpg">
                         
@@ -115,10 +116,13 @@
                         <div><h2>Marketing</h2><p>COURSES<br>Analytics, Content Marketing, Mobile Marketing</p></div>
                     </div>
                 </div>
+                <div id="mobilePanelBoard">
+                    <button class=""
+                </div>
             </div>
             <div id="exhibitions" class="whiteBack">
                 <h1>Thesis exhibit</h1>
-                <div class="articlesBox">
+                <div id="desktopThesis" class="articlesBox">
                     <div class="mainArticle">
                         <video controls><source src="./resources/assets/videos/thesis.mp4"></video>
                         <h2>Reimagine urban</h2>
@@ -140,6 +144,9 @@
                             </div>
                         </button>
                     </div>                    
+                </div>
+                <div id="mobileThesis">
+                    <video controls><source src="./resources/assets/videos/thesis.mp4"></video>
                 </div>
             </div>            
         </div>
