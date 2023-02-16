@@ -1,0 +1,27 @@
+@media only screen and (max-width: 700px) {
+    #desktopMainArticle {
+        display: none;
+    }
+
+    .subArticles {
+        max-width: 100%;
+    }
+
+    #desktopPanelBoard {
+        display: none;
+    }
+
+    #desktopThesis {
+        display: none;
+    }
+
+    #mobileThesis {
+        display: block;
+        width: 100%;
+    }
+    
+    #mobileThesis video {
+        width: 100%;
+        height: auto;
+    }
+}

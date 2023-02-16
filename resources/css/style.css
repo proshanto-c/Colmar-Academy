@@ -133,7 +133,7 @@ header li {
     text-align: center;
 }
 
-#panelBoard {
+#desktopPanelBoard {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
