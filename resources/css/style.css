@@ -117,7 +117,7 @@ header li {
     background-color: rgb(212, 212, 212);
 }
 
-.subArticles button img {
+.dImage {
     width: 35%;
     height: auto;
     padding-right: 16px;

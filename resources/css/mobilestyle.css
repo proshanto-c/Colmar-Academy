@@ -12,6 +12,25 @@
         max-width: 100%;
     }
 
+    .subArticles button {
+        display: block;
+        padding: 16px 16px 48px 16px;
+    }
+
+    .dImage {
+        display: none;
+    }
+
+    .mImage {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .subArticles div {
+        padding-left: 16px;
+    }
+
     #learn {
         background-color: white;
     }
@@ -63,6 +82,10 @@
     }
 
     #mobileThesis {
+        display: none;
+    }
+
+    .mImage {
         display: none;
     }
 }
