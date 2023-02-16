@@ -1,11 +1,15 @@
+/* For mobile users */
+/* Mobile exclusive components are:
+    .mobileNavBar, #mobilePanelBoard, #mobileThesis, .mImage */
 @media only screen and (max-width: 700px) {
+    /* Removing desktop exclusive components */
+    #logo, #navBar, #desktopMainArticle, .dImage, #desktopPanelBoard, #desktopThesis{
+        display: none;
+    }
+
     .whiteBack {
         border-top: 1px solid rgb(212,212,212);
         border-bottom: 1px solid rgb(212,212,212);
-    }
-
-    #logo, #navBar{
-        display: none;
     }
 
     .mobileNavBar {
@@ -27,10 +31,6 @@
         padding: 32px 16px;
     }
 
-    #desktopMainArticle {
-        display: none;
-    }
-
     .subArticles {
         max-width: 100%;
     }
@@ -38,10 +38,6 @@
     .subArticles button {
         display: block;
         padding: 16px 16px 48px 16px;
-    }
-
-    .dImage {
-        display: none;
     }
 
     .mImage {
@@ -56,10 +52,6 @@
 
     #learn {
         background-color: white;
-    }
-
-    #desktopPanelBoard {
-        display: none;
     }
 
     #mobilePanelBoard {
@@ -84,10 +76,6 @@
         color: rgb(212,212,212);
     }
 
-    #desktopThesis {
-        display: none;
-    }
-
     #mobileThesis {
         display: block;
         width: 100%;
@@ -100,20 +88,7 @@
 }
 
 @media only screen and (min-width: 700px) {
-    .mobileNavBar {
-        display: none;
-    }
-
-    #mobilePanelBoard {
-        display: none;
-    }
-
-    #mobileThesis {
-        display: none;
-    }
-
-    .mImage {
+    .mobileNavBar, #mobilePanelBoard, #mobileThesis, .mImage {
         display: none;
     }
 }
-

@@ -10,8 +10,8 @@
         content="default-src 'self'; script-src 'self'"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--<link rel="stylesheet" href="./resources/css/reset.css">-->
     <link rel="stylesheet" href="./resources/css/style.css">
+    <!---->
     <link rel="stylesheet" href="./resources/css/mobilestyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +20,7 @@
 
     <body>
         <header>
+            <!-- Nav bar for desktop only -->
             <div id="logo">
                 <img src="./resources/assets/images/ic-logo.svg">
                 <span><b>COLMAR</b>ACADEMY</span>
@@ -32,6 +33,8 @@
                     <li>Sign in</li>
                 </ul></nav>                
             </div>
+
+            <!-- Nav bar for mobile only -->
             <img src="./resources/assets/images/ic-logo.svg" class="mobileNavBar">
             <img src="./resources/assets/images/ic-on-campus.svg" class="mobileNavBar">
             <img src="./resources/assets/images/ic-online.svg" class="mobileNavBar">
@@ -39,7 +42,6 @@
         </header>
 
         <div class="mainContent">
-
             <div id="landing" class="greyBack">
                 <div id="banner">
                     <img src="./resources/assets/images/banner.jpg">
@@ -52,12 +54,17 @@
             </div>
             <div id="articles" class="whiteBack">
                 <div class="articlesBox">
+                    <!-- Desktop Exclusive Main Article Box (Seen on left) -->
                     <div id="desktopMainArticle" class="mainArticle">
-                        <img src="./resources/assets/images/information-main.jpg" class="dImage">
+                        <img src="./resources/assets/images/information-main.jpg">
                         <h1>It doesn't hurt to keep practicing</h1>
                         <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
                         <h5>Emanuel, Sr Strategist at Hiring.com</h5>
                     </div>
+
+                    <!-- Smaller article panels (on mobile, the only panels)
+                         the first image listed in each box is the one for desktop,
+                         the second is the one for mobile-->
                     <div class="subArticles">
                         <button>
                             <img src="./resources/assets/images/information-orientation.jpg" class="dImage">
@@ -91,6 +98,7 @@
             </div>
             <div id="learn" class="greyBack">
                 <h1>Start learning</h1>
+                <!-- Panels for desktop only -->
                 <div id="desktopPanelBoard">
                     <div class="panel">
                         <img src="./resources/assets/images/course-software.jpg">
@@ -123,6 +131,7 @@
                         <div><h2>Marketing</h2><p>COURSES<br>Analytics, Content Marketing, Mobile Marketing</p></div>
                     </div>
                 </div>
+                <!-- Panels for mobile only -->
                 <div id="mobilePanelBoard">
                     <button class="courseButton">
                         <h2>Software engineering</h2>
@@ -146,6 +155,7 @@
             </div>
             <div id="exhibitions" class="whiteBack">
                 <h1>Thesis exhibit</h1>
+                <!-- Thesis box for desktop only -->
                 <div id="desktopThesis" class="articlesBox">
                     <div class="mainArticle">
                         <video controls><source src="./resources/assets/videos/thesis.mp4"></video>
@@ -169,6 +179,7 @@
                         </button>
                     </div>                    
                 </div>
+                <!-- Thesis box for mobile only -->
                 <div id="mobileThesis">
                     <video controls><source src="./resources/assets/videos/thesis.mp4"></video>
                 </div>
