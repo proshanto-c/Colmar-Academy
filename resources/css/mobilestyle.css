@@ -4,6 +4,29 @@
         border-bottom: 1px solid rgb(212,212,212);
     }
 
+    #logo, #navBar{
+        display: none;
+    }
+
+    .mobileNavBar {
+        display: block;
+    }
+
+    #landing {
+        display: block;
+        width: 100%;
+    }
+
+    #banner {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    #text {
+        max-width: 100%;
+        padding: 32px 16px;
+    }
+
     #desktopMainArticle {
         display: none;
     }
@@ -77,6 +100,10 @@
 }
 
 @media only screen and (min-width: 700px) {
+    .mobileNavBar {
+        display: none;
+    }
+
     #mobilePanelBoard {
         display: none;
     }
